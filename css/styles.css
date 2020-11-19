@@ -1,0 +1,25 @@
+body {
+  background-color: #efefef;
+}
+#btn {
+  width: 200px;
+  height: 200px;
+  background-color: #ef454a;
+  border-radius: 50%;
+  text-align: center;
+  margin: 30px auto;
+  line-height: 200px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 42px;
+  cursor: pointer;
+  box-shadow: 0px 10px 0px #d1483e;
+  user-select: none;
+}
+#btn:hover {
+  opacity: 0.9;
+}
+#btn:active {
+  box-shadow: 0px 5px 0px #d1483e;
+  margin-top: 35px;
+}
